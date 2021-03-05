@@ -70,6 +70,9 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.hr {
+    background: rgba(255, 255, 255, 50%);
+}
 .blocks_position {
     display: flex;
     flex-wrap: wrap;
