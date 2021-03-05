@@ -1,0 +1,166 @@
+
+ /* <!-- body background --> */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+        box-sizing: border-box;}
+body {
+    background-color: rgb(39, 41, 49);  
+    padding: 40px ; 
+    
+    }
+
+.block_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.background {
+    width: 100%;
+    max-width: 915px;
+    background-color: rgb(43, 50, 80);
+    background-image: url(/figma1/css/Background.png);
+    background-repeat: no-repeat;  
+    background-size: cover;
+    padding: 50px 20px 50px 20px;
+}
+
+/* <!-- text blue background center --> */
+.text_hearder {
+    color: rgba(255, 255, 255, 50%);
+    text-align: center;
+
+}
+.distance_top {
+    margin-top: 30px;
+}
+.Simple_pricing {
+    color: beige;
+    font-size: x-large;
+}
+/* button_start */
+.button_start {
+    width: 190px;
+    height: 40px;
+    background-color: #0093EE;
+    border-radius: 4px;
+    border: none;
+    color: beige;
+}
+.button_start:hover {
+    background-color: chartreuse;
+    transition: 0,5s;
+}
+
+/* <!-- four blocks --> */
+.block_size {
+    width: 100%;
+    max-width: 206px;
+    padding:0 0 20px 30px;
+    margin-top: 50px;
+}
+hr {
+    border: none;
+    background: #2C405A;
+    height: 1px;
+    margin-left: -30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.blocks_position {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* round picture */
+
+.img_round {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 4px solid bisque;
+    position: relative;
+    top: -20px; 
+   
+}
+
+.img_small_position {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+        /* <!-- block lite --> */
+.block_lite {
+    background-color: #26374C;
+    border-radius: 4px;
+}
+.lite {
+    color: #AB7DF6;
+    margin-bottom: 10px;
+
+}
+.clear_text {
+    margin: 10px 0 10px 0;
+    color: rgba(255, 255, 255, 50%);
+}
+p {
+    color: white;
+    margin-bottom: 7px;
+}
+.circul_background_lite {
+    background-color:  #AB7DF6;;
+}
+
+
+/* <!-- block basic --> */
+.block_basic {
+    background-color: #26C1C9;
+    border-radius: 4px;}
+
+.basic {
+    color: white;
+    margin-bottom: 10px;
+}
+.circul_background_basic {
+    background-color:  #26C1C9;;
+}
+/* <!-- block team --> */
+
+.team {
+    color: #81C926;
+    margin-bottom: 10px;
+}
+.circul_background_team {
+    background-color:  #81C926;;
+}
+
+/* - block pro --> */
+.pro {
+color: #FACA00;
+margin-bottom: 10px;
+}
+.circul_background_pro {
+    background-color:  #FACA00;;
+}
+
+
+/* bottom text */ 
+.text_bottom {
+    color: rgba(255, 255, 255, 50%);
+    width: 100%;
+    max-width: 350px;}
+
+
+
+   
+    
+
+
+
+
+   

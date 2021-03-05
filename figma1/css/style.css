@@ -9,7 +9,9 @@
 body {
     background-image: url(Background.png);
     background-color: rgb(20, 52, 231);
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;  
+    background-size: cover;
+
 }
 
 .block_center {
@@ -19,32 +21,27 @@ body {
     top: 50%;
     transform: translate(-50%,-50%);
     width: 100%;
-    max-width: 410px;
+    max-width: 350px;
     text-align: center;
 }
 .text_margin_top {
    margin-top: 20px;
 }
 /*  */
-.best_design_text {
+.text_light {
     width: 100%;
     max-width: 350px;
-
-}
-.text_light {
-    
     font-weight: lighter;
-    color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 70%);
 }
 /* dark blue field */
 .field {
-    Width:410px;
-    Height:310px;
+    Width:350px;
+    padding-bottom: 30px;
     background: #2C405A;
-    border: 1px solid #3F536E;
     box-sizing: border-box;
-    box-shadow: 0px 1px 5px rgba(23, 24, 25, 0.59692);
     border-radius: 8px;
+    padding-top: 30px;
 
 }
 /* field input */
@@ -54,20 +51,29 @@ input {
     height: 50px;
     margin-top: 5px ;
     border-radius: 5px;
+    border: solid 1px #3F536E;
     padding-left: 20px;
     font-size: medium;
+    color: aliceblue;
+    
+    
+}
+input:focus {
+    outline: none;
+    border-color:  blue;
+   
 }
 /* button */
 .button_size {
     width: 100%;
     max-width: 120px;
-    height: 100%;
-    max-height: 40px;
+    height: 40px;
     background-color: chartreuse;
     color: cornsilk;
     font-size: medium;
     border-radius: 6px;
    outline: none;
+   border: none;
 
 }
 .button_size:hover {
@@ -91,6 +97,7 @@ a {
   position: absolute;
   bottom: 0px;
   right: 0px;
+  cursor: pointer;
 
 }
 
